@@ -311,4 +311,3 @@ Gdy znajdziesz w tekście umowy:
 > 3. W przypadku określonym w ust. 2 pkt 3) Strona zobowiązana do ujawnienia powiadamia drugą Stronę o tym obowiązku niezwłocznie, nie później niż w terminie [X] Dni Roboczych od dnia jego powstania.
 
 ---
-Część reguł pochodzi z commercial-legal-pl, Kancelaria Radców Prawnych Żurawska Piotrowski i Wspólnicy, Apache 2.0; zmienione.
