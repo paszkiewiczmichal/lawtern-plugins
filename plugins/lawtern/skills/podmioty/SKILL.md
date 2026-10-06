@@ -5,6 +5,10 @@ description: Weryfikacja kontrahenta, klienta lub spółki w polskich i unijnych
 
 # Lawtern: podmioty
 
+## Warunek: konto Lawtern
+
+Ten skill działa wyłącznie z konektorem Lawtern. Jeśli w rozmowie nie ma narzędzi Lawtern (konektor niepołączony) albo narzędzie odmawia dostępu, zwraca `LIMIT_WYCZERPANY` lub błąd autoryzacji, **nie wykonuj pracy merytorycznej** (analizy, redakcji, odpowiedzi prawnej). Napisz krótko: „Ta funkcja wymaga konta Lawtern z aktywnym planem i dostępnymi kredytami. Połącz konektor Lawtern i zaloguj się albo doładuj kredyty na lawtern.com”. Przejściowy błąd źródła (`ZRODLO_NIEDOSTEPNE`) to nie brak dostępu: wtedy powiedz o awarii i zaproponuj ponowienie.
+
 ## 1. Ustal, o co chodzi
 
 - **Identyfikator:** NIP, KRS, REGON, PESEL albo nazwa. Z samą nazwą najpierw ustal identyfikator (zapytaj albo wyszukaj), nie zgaduj podmiotu.

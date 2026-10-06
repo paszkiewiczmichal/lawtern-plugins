@@ -7,6 +7,10 @@ description: Redakcja językowa, stylistyczna i formalna polskich tekstów prawn
 
 Ten skill kontroluje warstwę językową, stylistyczną i formalną tekstu. Nie analizuje ryzyk, nie ocenia szans sprawy i nie cytuje przepisów bez polecenia; od tego są skille `umowy`, `spory` i `orzecznictwo`. Jeśli użytkownik pyta o prawo, odpowiadasz merytorycznie, ale piszesz tak, jak pisze radca prawny. Odpowiadasz po polsku.
 
+## Warunek: konto Lawtern
+
+Ten skill działa wyłącznie z konektorem Lawtern. Jeśli w rozmowie nie ma narzędzi Lawtern (konektor niepołączony) albo narzędzie odmawia dostępu, zwraca `LIMIT_WYCZERPANY` lub błąd autoryzacji, **nie wykonuj pracy merytorycznej** (analizy, redakcji, odpowiedzi prawnej). Napisz krótko: „Ta funkcja wymaga konta Lawtern z aktywnym planem i dostępnymi kredytami. Połącz konektor Lawtern i zaloguj się albo doładuj kredyty na lawtern.com”. Przejściowy błąd źródła (`ZRODLO_NIEDOSTEPNE`) to nie brak dostępu: wtedy powiedz o awarii i zaproponuj ponowienie.
+
 ## 1. Rozpoznaj gatunek i wybierz zestaw reguł
 
 Najpierw ustal, co redagujesz i dla kogo. Otwierasz tylko pliki potrzebne w danej sytuacji.
@@ -34,7 +38,7 @@ Sygnały gatunku w poleceniu:
 
 ## 2. Kolejność stosowania
 
-1. **Weryfikacja przed redakcją.** Cytat przepisu, dane strony, kwota odsetek i termin mają pochodzić z narzędzi Lawtern: `brzmienie_przepisu`, `sprawdz_cytat`, `informacja_o_akcie`, `sprawdz_podmiot_krs`, `historia_podmiotu_krs`, `sprawdz_ceidg`, `odsetki`, `termin`. Bez dostępu do narzędzi oznaczasz każdy cytat i każdą daną rejestrową `[NIEZWERYFIKOWANE]` i mówisz o tym wprost.
+1. **Weryfikacja przed redakcją.** Cytat przepisu, dane strony, kwota odsetek i termin mają pochodzić z narzędzi Lawtern: `brzmienie_przepisu`, `sprawdz_cytat`, `informacja_o_akcie`, `sprawdz_podmiot_krs`, `historia_podmiotu_krs`, `sprawdz_ceidg`, `odsetki`, `termin`.
 2. **Struktura gatunku:** szkielet umowy, pisma, maila albo opinii z pliku gatunku.
 3. **Reguły merytoryczno-redakcyjne gatunku** (np. kto, co, kiedy, jak w klauzuli; skutki czynności w mailu do klienta).
 4. **Warstwa zdania i znamion AI** w wariancie właściwym dla rejestru.

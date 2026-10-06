@@ -75,7 +75,6 @@ Weryfikacja ma pierwszeństwo przed redakcją: ładny dokument z błędnym cytat
 - [ ] Każdy cytowany przepis sprawdzony narzędziem `brzmienie_przepisu`, a cytat narzędziem `sprawdz_cytat`; stan aktu narzędziem `informacja_o_akcie`.
 - [ ] Dane stron sprawdzone: `sprawdz_podmiot_krs`; reprezentacja w dacie czynności z przeszłości: `historia_podmiotu_krs`; przedsiębiorca jednoosobowy: `sprawdz_ceidg`.
 - [ ] Odsetki policzone narzędziem `odsetki`, terminy narzędziem `termin`, nie w pamięci.
-- [ ] Bez dostępu do narzędzi: `[NIEZWERYFIKOWANE]` przy każdym cytacie i każdej danej rejestrowej, powiedziane wprost. Nie zgadujesz.
 
 ## 8. Bramka przed wersją finalną
 
