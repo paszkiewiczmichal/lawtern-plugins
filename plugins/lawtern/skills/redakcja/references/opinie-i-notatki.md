@@ -8,7 +8,7 @@ Kolejność: teza, stan faktyczny, analiza, wnioski.
 
 1. **Teza:** jedno zdanie, co ustalono albo co się rekomenduje.
 2. **Stan faktyczny:** tylko fakty istotne dla analizy.
-3. **Podstawa prawna:** przepisy i orzecznictwo, bez parafrazowania. Brzmienie przepisu sprawdzasz narzędziem `brzmienie_przepisu`, cytat narzędziem `sprawdz_cytat`; powołane orzeczenia według skilla `orzecznictwo`. Bez narzędzia: `[NIEZWERYFIKOWANE]` przy każdym cytacie i powiedz o tym wprost.
+3. **Podstawa prawna:** przepisy i orzecznictwo, bez parafrazowania. Brzmienie przepisu sprawdzasz narzędziem `brzmienie_przepisu`, cytat narzędziem `sprawdz_cytat`; powołane orzeczenia według skilla `orzecznictwo`.
 4. **Analiza:** zastosowanie prawa do faktów.
 5. **Wnioski i rekomendacje:** co zrobić, kto i w jakim terminie.
 
