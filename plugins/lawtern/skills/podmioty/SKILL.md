@@ -9,34 +9,16 @@ description: Weryfikacja kontrahenta, klienta lub spółki w polskich i unijnych
 
 Ten skill działa wyłącznie z konektorem Lawtern. Jeśli w rozmowie nie ma narzędzi Lawtern (konektor niepołączony) albo narzędzie odmawia dostępu, zwraca `LIMIT_WYCZERPANY` lub błąd autoryzacji, **nie wykonuj pracy merytorycznej** (analizy, redakcji, odpowiedzi prawnej). Napisz krótko: „Ta funkcja wymaga konta Lawtern z aktywnym planem i dostępnymi kredytami. Połącz konektor Lawtern i zaloguj się albo doładuj kredyty na lawtern.com”. Przejściowy błąd źródła (`ZRODLO_NIEDOSTEPNE`) to nie brak dostępu: wtedy powiedz o awarii i zaproponuj ponowienie.
 
-## 1. Ustal, o co chodzi
+## Jak pracujesz
 
-- **Identyfikator:** NIP, KRS, REGON, PESEL albo nazwa. Z samą nazwą najpierw ustal identyfikator (zapytaj albo wyszukaj), nie zgaduj podmiotu.
-- **Data:** stan aktualny czy na dzień czynności (np. podpisania umowy). Reprezentacja w przeszłości wymaga historii, nie aktualnego odpisu.
-- **Zakres:** szybkie sprawdzenie (status, reprezentacja, VAT) czy pełny raport.
+1. **Zanim zaczniesz**, pobierz sposób pracy z Lawtern: `wybierz_procedure` (opis zadania, dziedzina `podmioty`) albo od razu `procedura` z celem `raport_podmiotu`.
+2. Prowadź pracę **etap po etapie** według zwróconych instrukcji, kryteriów wyjścia i pytań. Nie zastępuj procedury własną wiedzą.
+3. Gdy konektor nie udostępnia narzędzi procedur, pracuj wyłącznie na narzędziach źródłowych Lawtern i powiedz, że pełna procedura jest chwilowo niedostępna.
+4. Przed oddaniem dokumentu użyj skilla `redakcja`.
 
-## 2. Który rejestr
+## Zasady stałe
 
-| Pytanie | Narzędzie |
-|---|---|
-| status, reprezentacja, kapitał spółki dziś | `sprawdz_podmiot_krs` |
-| kto reprezentował w dniu czynności | `historia_podmiotu_krs` z `na_dzien` (wynik opiera się na dacie wpisu w KRS, nie zdarzenia: zastrzeż to) |
-| jednoosobowa działalność | `sprawdz_ceidg` |
-| podmiot po NIP lub REGON | `sprawdz_podmiot_po_nip`, `sprawdz_podmiot_po_regon`, `raport_regon` |
-| czy rachunek z faktury jest na Białej Liście | `sprawdz_rachunek_biala_lista` |
-| VAT UE | `sprawdz_vat_ue` (bez zapisywania wyników na zapas: odpytuj na bieżąco, numer konsultacji do akt) |
-| beneficjenci rzeczywiści | `beneficjenci_rzeczywisci` |
-| upadłość, restrukturyzacja | `krz_szukaj_wszedzie` (gdy nie wiesz, jaki to typ podmiotu) albo właściwe `krz_szukaj_*`; obwieszczenia: `krz_obwieszczenia_sprawy` |
-| ogłoszenia (głównie sprzed 29.11.2025) | `msig_szukaj` |
-| jakie rejestry są dostępne | `lista_rejestrow` |
-
-## 3. Pełny raport (gdy użytkownik o niego prosi)
-
-Jeśli konektor ma narzędzie `procedura`, wywołaj je z celem `raport_podmiotu`. W przeciwnym razie: identyfikacja → KRS lub CEIDG → REGON → Biała Lista → VIES (gdy podmiot jest czynnym podatnikiem VAT UE) → CRBR → KRZ → MSiG, a w wyniku dla każdego rejestru: co zwrócił, z jaką datą stanu, czy wynik jest kompletny.
-
-## 4. Zasady
-
-- Odpowiedź z API rejestru **nie jest dokumentem urzędowym**. Moc dokumentu urzędowego ma samodzielnie pobrany wydruk z wyszukiwarki KRS (art. 4 ust. 4aa ustawy o KRS); zaznacz to, gdy wynik ma trafić do pisma lub umowy.
-- KRZ działa bez publicznego API: przejściowa blokada (`KRZ_BLOCKED`) albo `kompletny: false` oznacza, że **brak trafienia nie dowodzi braku wpisu**. Napisz to wprost.
-- Błąd narzędzia to nie brak wyników. Nie wyciągaj wniosków z pustki.
-- Dane rejestrowe przepisuj dosłownie z wyniku, z datą stanu. Bez nieproszonych ocen wiarygodności kontrahenta.
+- Przepisy i orzeczenia tylko z wyników narzędzi, dosłownie; brzmienie na datę zdarzenia; przed cytatem przepisu `sprawdz_cytat`.
+- Najbliższy wynik, który nie odpowiada na pytanie, nie jest odpowiedzią. Błąd narzędzia to nie brak wyników.
+- Sygnatur, sądów i autorów spoza wyników nie podajesz. Kwoty i terminy liczą narzędzia.
+- Robisz to, o co proszono; przy brakach danych krytycznych pytasz (z opcjami), nie zgadujesz.
