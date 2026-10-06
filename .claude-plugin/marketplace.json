@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "lawtern-plugins",
+  "description": "Pluginy Lawtern dla Claude: zweryfikowane źródła prawa polskiego i UE oraz workflow kancelaryjne.",
+  "owner": {
+    "name": "Kancelaria Radcy Prawnego Michał Paszkiewicz",
+    "email": "kontakt@kancelariapaszkiewicz.pl"
+  },
+  "plugins": [
+    {
+      "name": "lawtern",
+      "source": "./plugins/lawtern",
+      "description": "Konektor MCP Lawtern (przepisy, orzecznictwo, rejestry, kalkulatory) z pakietem skilli kancelaryjnych.",
+      "category": "legal"
+    }
+  ]
+}
