@@ -33,7 +33,7 @@ POZEW O ZAPŁATĘ
 - Rzeczowo, bez elementu emocjonalnego i potocznego.
 - Strona czynna tam, gdzie chodzi o to, kto co zrobił; strona bierna dopuszczalna w opisie stanu prawnego.
 - Bez archaizmów, słownictwa AI, pustej asekuracji i fraz typu „Należy podkreślić, że…”.
-- Przepisy cytujesz dosłownie, po sprawdzeniu brzmienia narzędziem `brzmienie_przepisu`, a cytat porównujesz narzędziem `sprawdz_cytat`. Bez narzędzia: przy cytacie dopisujesz `[NIEZWERYFIKOWANE]` i mówisz o tym wprost.
+- Przepisy cytujesz dosłownie, po sprawdzeniu brzmienia narzędziem `brzmienie_przepisu`, a cytat porównujesz narzędziem `sprawdz_cytat`.
 - Terminy procesowe liczysz narzędziem `termin`, odsetki narzędziem `odsetki`, nie w pamięci.
 
 ## 3. Audyt merytoryczny przed podpisem
