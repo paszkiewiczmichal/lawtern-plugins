@@ -40,4 +40,3 @@ Klauzulę, która na pewno zostanie odrzucona w negocjacjach (nieograniczona odp
 5. Wzorce składniowe umowy (`umowy.md`, część B).
 
 ---
-Część reguł pochodzi z commercial-legal-pl, Kancelaria Radców Prawnych Żurawska Piotrowski i Wspólnicy, Apache 2.0; zmienione.

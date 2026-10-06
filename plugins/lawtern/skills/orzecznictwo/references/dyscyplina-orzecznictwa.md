@@ -1,7 +1,5 @@
 # Dyscyplina orzecznictwa — trzy stany sygnatury
 
-> **Wersja dla pluginu Lawtern (06.10.2026):** treść reguł bez zmian; zaktualizowano wyłącznie nazwy narzędzi i dostępność orzecznictwa krajowego (tabela w § 2). Odesłania do plików skilla kancelarii (`rdzen-ktzr.md`, workflow) dotyczą procedur po stronie serwera Lawtern.
->
 > Rozwinięcie R1 (`rdzen-ktzr.md`) na orzecznictwo, wspólne dla całej warstwy spornej. Workflow
 > odwołują się tu przez numer sekcji zamiast powtarzać treść (R7 — progressive disclosure).
 > Otwórz przy każdym workflow, które cytuje albo ocenia orzecznictwo:

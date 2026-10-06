@@ -140,4 +140,3 @@ pdftoppm -jpeg -r 100 dokument.pdf strona
 Szukasz: uciętego tekstu, rozjechanych wcięć, podpisu samotnie na ostatniej stronie, numeracji przerwanej po cięciu, resztek po usuniętych fragmentach („z przyczyn wskazanych w pkt 5”, gdy pkt 5 już nie ma). Gdy podpis ląduje sam na nowej stronie, zmniejsz odstępy między akapitami albo marginesy o dziesiąte części cala.
 
 ---
-Część reguł pochodzi z commercial-legal-pl, Kancelaria Radców Prawnych Żurawska Piotrowski i Wspólnicy, Apache 2.0; zmienione.
