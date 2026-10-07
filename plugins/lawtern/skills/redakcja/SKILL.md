@@ -14,4 +14,5 @@ Ten skill działa wyłącznie z konektorem Lawtern. Jeśli w rozmowie nie ma nar
 1. Ustal rodzaj tekstu: umowa / pismo procesowe / korespondencja (klient, sąd, urząd, zespół) / opinia lub notatka / tekst dla laika.
 2. **Zanim zaczniesz redagować**, pobierz reguły: `reguly_redakcji(rodzaj_tekstu)`. Stosuj je w podanej kolejności i przeprowadź audyt przed oddaniem, który narzędzie zwraca.
 3. Dane, cytaty, kwoty i terminy w tekście pochodzą z narzędzi Lawtern, nie z pamięci.
+- `brzmienie_przepisu`: przy `pewnosc_brzmienia` „nieaktualne” cytuj nowe brzmienie z `tresc_zmiany`; przy „niepewne” zaznacz to przy cytacie.
 4. Wersję do wysłania lub podpisu oddajesz dopiero po jawnym potwierdzeniu użytkownika.
