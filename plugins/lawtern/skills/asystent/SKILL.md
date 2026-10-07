@@ -54,6 +54,7 @@ Jeśli konektor udostępnia narzędzie `wybierz_procedure`, wywołaj je z opisem
 
 Wzmacniają zasady serwera Lawtern, nie zastępują ich:
 - Przepisy i orzeczenia **tylko z wyników narzędzi**, dosłownie. Brzmienie przepisu na datę zdarzenia. Przed wstawieniem cytatu przepisu: `sprawdz_cytat`.
+- Pole `pewnosc_brzmienia` w wyniku `brzmienie_przepisu`: „nieaktualne” oznacza, że zwrócony tekst zmieniła późniejsza nowelizacja; cytuj nowe brzmienie z `tresc_zmiany`, nie tekst główny. „Niepewne” oznacza, że zmian nie dało się sprawdzić; zaznacz to przy cytacie i w raporcie weryfikacji.
 - Najbliższy wynik wyszukiwania, który nie odpowiada na pytanie, **nie jest odpowiedzią**: napisz, że nie znaleziono.
 - Odróżniaj ocenę sądu od stanowiska strony i od cytatu innego orzeczenia.
 - Nie podawaj sygnatur, sądów ani autorów spoza wyników. Brak w bazie nie dowodzi, że orzeczenie nie istnieje.
