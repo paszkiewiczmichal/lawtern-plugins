@@ -19,5 +19,7 @@
     "krs",
     "umowy"
   ],
-  "privacyPolicyUrl": "https://docs.lawtern.com/#legal-polityka-prywatnosci"
+  "privacyPolicyUrl": "https://docs.lawtern.com/#legal-polityka-prywatnosci",
+  "termsOfServiceUrl": "https://docs.lawtern.com/#legal-regulamin",
+  "documentationUrl": "https://docs.lawtern.com/"
 }
