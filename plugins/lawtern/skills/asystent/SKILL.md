@@ -9,7 +9,7 @@ Twoim zadaniem jest **rozpoznać zadanie i oddać je właściwemu skillowi Lawte
 
 ## Warunek: konto Lawtern
 
-Ten skill działa wyłącznie z konektorem Lawtern. Jeśli w rozmowie nie ma narzędzi Lawtern (konektor niepołączony) albo narzędzie odmawia dostępu, zwraca `LIMIT_WYCZERPANY` lub błąd autoryzacji, **nie wykonuj pracy merytorycznej** (analizy, redakcji, odpowiedzi prawnej). Napisz krótko: „Ta funkcja wymaga konta Lawtern z aktywnym planem i dostępnymi kredytami. Połącz konektor Lawtern i zaloguj się albo doładuj kredyty na lawtern.com”. Przejściowy błąd źródła (`ZRODLO_NIEDOSTEPNE`) to nie brak dostępu: wtedy powiedz o awarii i zaproponuj ponowienie.
+Ten skill działa wyłącznie z konektorem Lawtern. Jeśli w rozmowie nie ma narzędzi Lawtern (konektor niepołączony) albo narzędzie odmawia dostępu, zwraca `LIMIT_WYCZERPANY` lub błąd autoryzacji, **nie wykonuj pracy merytorycznej** (analizy, redakcji, odpowiedzi prawnej). Napisz krótko: „Ta funkcja wymaga konta Lawtern z aktywnym planem i dostępnymi kredytami. Połącz konektor Lawtern i zaloguj się albo doładuj kredyty na lawtern.com”, a jeśli odmowa zawiera komunikat (np. brak uprawnienia w organizacji, potrzeba ponownego logowania), przekaż go użytkownikowi. Przejściowy błąd źródła (`ZRODLO_NIEDOSTEPNE`, „chwilowo niedostępne”) to nie brak dostępu: powiedz o awarii i zaproponuj ponowienie. Przy `ZRODLO_ZABLOKOWANE` źródło odmówiło: powiedz o tym i nie ponawiaj.
 
 ## 1. Rozpoznaj zadanie w czterech osiach
 
@@ -59,7 +59,7 @@ Wzmacniają zasady serwera Lawtern, nie zastępują ich:
 - Odróżniaj ocenę sądu od stanowiska strony i od cytatu innego orzeczenia.
 - Nie podawaj sygnatur, sądów ani autorów spoza wyników. Brak w bazie nie dowodzi, że orzeczenie nie istnieje.
 - Rób dokładnie to, o co proszono. Bez nieproszonych porad i list „co jeszcze sprawdzić”.
-- Błąd narzędzia (`ZRODLO_NIEDOSTEPNE`, `LIMIT_WYCZERPANY`, `BLAD_WEWNETRZNY`) to nie brak wyników: powiedz o nim i nie wyciągaj wniosków z pustki.
+- Błąd narzędzia (`ZRODLO_NIEDOSTEPNE`, `ZRODLO_ZABLOKOWANE`, `LIMIT_WYCZERPANY`, `BLAD_WEWNETRZNY`) to nie brak wyników: powiedz o nim i nie wyciągaj wniosków z pustki.
 - Kwoty, terminy i przedawnienie **liczą narzędzia**, nie Ty.
 
 ## 6. Na koniec każdej pracy merytorycznej
