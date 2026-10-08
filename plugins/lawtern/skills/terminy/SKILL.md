@@ -19,6 +19,8 @@ Ten skill działa wyłącznie z narzędziami Lawtern. Gdy ich brakuje albo odmaw
 | Plan nie obejmuje tej funkcji (`BRAK_UPRAWNIENIA`) | Plan Twojej organizacji nie obejmuje tej części Lawtern. Skontaktuj się z administratorem organizacji. |
 | Administrator ograniczył dostęp (`LIMIT_CZLONKA`) | Administrator Twojej organizacji ustawił dla Twojego konta limit albo wyłączył dostęp. Skontaktuj się z nim. |
 | Dzienny limit (`LIMIT_DZIENNY`) | Osiągnięto dzienny limit zapytań. Spróbuj ponownie jutro. |
+| Limit godzinowy (`LIMIT_GODZINOWY`) | Osiągnięto limit zapytań na tę godzinę. Spróbujmy ponownie za godzinę. |
+| Za dużo zapytań naraz (`LIMIT_SERII`) | Wysłano zbyt wiele zapytań w krótkim czasie. Za chwilę spróbujmy ponownie. |
 | Konto poza organizacją (`BRAK_CZLONKOSTWA`) | Twoje konto nie należy do organizacji wybranej przy logowaniu. Poproś administratora o zaproszenie albo połącz konektor ponownie i wybierz właściwą organizację. |
 | Trzeba połączyć się ponownie (`BRAK_KONTEKSTU`) | Połączenie z Lawtern wymaga odświeżenia. Rozłącz i połącz ponownie konektor Lawtern, a przy logowaniu wybierz swoją organizację. |
 | Chwilowa awaria (`ZRODLO_NIEDOSTEPNE`, „chwilowo niedostępne”) | Źródło jest chwilowo niedostępne. Spróbujmy ponownie za chwilę. |
