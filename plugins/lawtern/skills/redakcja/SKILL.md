@@ -9,7 +9,7 @@ Ten skill kontroluje warstwę językową, stylistyczną i formalną tekstu. Nie 
 
 ## Warunek: konto Lawtern
 
-Ten skill działa wyłącznie z konektorem Lawtern. Jeśli w rozmowie nie ma narzędzi Lawtern (konektor niepołączony) albo narzędzie odmawia dostępu, zwraca `LIMIT_WYCZERPANY` lub błąd autoryzacji, **nie wykonuj pracy merytorycznej** (analizy, redakcji, odpowiedzi prawnej). Napisz krótko: „Ta funkcja wymaga konta Lawtern z aktywnym planem i dostępnymi kredytami. Połącz konektor Lawtern i zaloguj się albo doładuj kredyty na lawtern.com”. Przejściowy błąd źródła (`ZRODLO_NIEDOSTEPNE`) to nie brak dostępu: wtedy powiedz o awarii i zaproponuj ponowienie.
+Ten skill działa wyłącznie z konektorem Lawtern. Jeśli w rozmowie nie ma narzędzi Lawtern (konektor niepołączony) albo narzędzie odmawia dostępu, zwraca `LIMIT_WYCZERPANY` lub błąd autoryzacji, **nie wykonuj pracy merytorycznej** (analizy, redakcji, odpowiedzi prawnej). Napisz krótko: „Ta funkcja wymaga konta Lawtern z aktywnym planem i dostępnymi kredytami. Połącz konektor Lawtern i zaloguj się albo doładuj kredyty na lawtern.com”, a jeśli odmowa zawiera komunikat (np. brak uprawnienia w organizacji, potrzeba ponownego logowania), przekaż go użytkownikowi. Przejściowy błąd źródła (`ZRODLO_NIEDOSTEPNE`, „chwilowo niedostępne”) to nie brak dostępu: powiedz o awarii i zaproponuj ponowienie. Przy `ZRODLO_ZABLOKOWANE` źródło odmówiło: powiedz o tym i nie ponawiaj.
 
 ## 1. Rozpoznaj gatunek i wybierz zestaw reguł
 
