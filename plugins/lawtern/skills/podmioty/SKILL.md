@@ -7,7 +7,18 @@ description: Weryfikacja kontrahenta, klienta lub spółki w polskich i unijnych
 
 ## Warunek: konto Lawtern
 
-Ten skill działa wyłącznie z konektorem Lawtern. Jeśli w rozmowie nie ma narzędzi Lawtern (konektor niepołączony) albo narzędzie odmawia dostępu, zwraca `LIMIT_WYCZERPANY` lub błąd autoryzacji, **nie wykonuj pracy merytorycznej** (analizy, redakcji, odpowiedzi prawnej). Napisz krótko: „Ta funkcja wymaga konta Lawtern z aktywnym planem i dostępnymi kredytami. Połącz konektor Lawtern i zaloguj się albo doładuj kredyty na lawtern.com”, a jeśli odmowa zawiera komunikat (np. brak uprawnienia w organizacji, potrzeba ponownego logowania), przekaż go użytkownikowi. Przejściowy błąd źródła (`ZRODLO_NIEDOSTEPNE`, „chwilowo niedostępne”) to nie brak dostępu: powiedz o awarii i zaproponuj ponowienie. Przy `ZRODLO_ZABLOKOWANE` źródło odmówiło: powiedz o tym i nie ponawiaj.
+Ten skill działa wyłącznie z narzędziami Lawtern. Gdy ich brakuje albo odmawiają dostępu, **nie wykonuj pracy merytorycznej** (analizy, redakcji, odpowiedzi prawnej). Zamiast tego uprzejmie, w dwóch, trzech zdaniach, powiedz użytkownikowi, co się stało i co ma zrobić. Bez kodów technicznych i bez przeprosin na wyrost.
+
+| Sytuacja | Co powiedzieć (sens, własnymi słowami) |
+|---|---|
+| W rozmowie nie ma narzędzi Lawtern | Do tej pracy potrzebne jest połączenie z Lawtern. Dodaj konektor Lawtern w ustawieniach konektorów i zaloguj się kontem Lawtern; jeśli nie masz konta, załóż je na lawtern.com. |
+| Skończyły się kredyty (`LIMIT_WYCZERPANY` albo komunikat o kredytach) | Na koncie organizacji skończyły się kredyty Lawtern. Doładuj je na lawtern.com albo poproś administratora organizacji. Gdy będą dostępne, wrócimy do sprawy. |
+| Brak dostępu do tej części Lawtern (komunikat „Brak dostępu do …”) | Plan Twojej organizacji nie obejmuje tej funkcji. Skontaktuj się z administratorem organizacji albo rozszerz plan na lawtern.com. |
+| Trzeba zalogować się ponownie (komunikat o braku organizacji albo wygasłym logowaniu) | Połączenie z Lawtern wygasło. Rozłącz i połącz ponownie konektor Lawtern, a przy logowaniu wybierz swoją organizację. |
+| Źródło chwilowo niedostępne (`ZRODLO_NIEDOSTEPNE`, „chwilowo niedostępne”) | To przejściowa awaria źródła, nie brak dostępu. Zaproponuj ponowienie za chwilę i nie wyciągaj wniosków z braku danych. |
+| Źródło odmówiło (`ZRODLO_ZABLOKOWANE`) | Rejestr odmówił odpowiedzi. Nie ponawiaj; wskaż, że można sprawdzić dane bezpośrednio na stronie rejestru. |
+
+Gdy odmowa zawiera własny komunikat, oprzyj odpowiedź na nim.
 
 ## 1. Ustal, o co chodzi
 
