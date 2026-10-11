@@ -49,7 +49,7 @@ Ustal (albo zapytaj, z opcjami): **sąd i sygnatura sprawy**, **etap i rodzaj pi
 
 ## 2. Procedura Lawtern
 
-Jeśli konektor ma narzędzie `procedura`, wywołaj je z celem odpowiadającym trybowi i prowadź pracę etap po etapie według zwróconych kroków i kryteriów wyjścia.
+Jeśli konektor ma narzędzie `procedura`, wywołaj je z celem odpowiadającym trybowi (`analiza-pisma-procesowego`, `ocena-sporu`, `pismo-odpowiadajace`, `przygotowanie-pozwu`, `kwestionowanie-argumentacji`, `dowod-osobowy`, `chronologia-akt-sledztwa`; gdy nie wiesz który, najpierw `wybierz_procedure`) i prowadź pracę etap po etapie według zwróconych kroków i kryteriów wyjścia.
 
 ## 3. Tryb podstawowy (gdy procedury nie ma)
 

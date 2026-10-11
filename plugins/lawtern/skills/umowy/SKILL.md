@@ -49,7 +49,7 @@ Ustal (albo zapytaj, z opcjami): **czyją stronę reprezentujesz**, **reżim** (
 
 ## 2. Procedura Lawtern
 
-Jeśli konektor ma narzędzie `procedura`, wywołaj je z celem odpowiadającym trybowi (np. `analiza_umowy`) i prowadź pracę etap po etapie według zwróconych kroków i kryteriów wyjścia. Reguły budowy umowy danego typu (kwalifikacja, essentialia, normy bezwzględnie obowiązujące, ryzyka) bierz z `karta_typu_umowy`, a przykłady klauzul, listy kontrolne i wiedzę z `szukaj_klauzul`, `porownaj_klauzule`, `lista_kontrolna`, `szukaj_wiedzy`, jeśli są dostępne. Umowę piszesz według reguł, nie przez kopiowanie gotowego wzoru.
+Jeśli konektor ma narzędzie `procedura`, wywołaj je z celem odpowiadającym trybowi: `triage-szybki` (szybka ocena), `pelna-analiza`, `audyt-ryzyk`, `popraw-fragment`, `generator-umow`, `generator-regulaminu`, `ocena-2-strony`, `weryfikacja-spojnosci-odeslan`; gdy nie wiesz który, najpierw `wybierz_procedure` i prowadź pracę etap po etapie według zwróconych kroków i kryteriów wyjścia. Reguły budowy umowy danego typu (kwalifikacja, essentialia, normy bezwzględnie obowiązujące, ryzyka) bierz z `karta_typu_umowy`, a przykłady klauzul, listy kontrolne i wiedzę z `szukaj_klauzul`, `porownaj_klauzule`, `lista_kontrolna`, `szukaj_wiedzy`, jeśli są dostępne. Umowę piszesz według reguł, nie przez kopiowanie gotowego wzoru.
 
 ## 3. Tryb podstawowy (gdy procedury nie ma)
 
