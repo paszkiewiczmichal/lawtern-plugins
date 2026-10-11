@@ -31,8 +31,9 @@ Każda sygnatura, którą się posługujesz, ma jeden z trzech stanów. Nie woln
 | Rodzaj | Narzędzie | Uwaga |
 |---|---|---|
 | przepis PL/UE | `brzmienie_przepisu` (z `na_dzien`), przed cytatem `sprawdz_cytat` | obowiązkowo, R1. **Uwaga na numerację historyczną:** przepis cytowany w orzeczeniu sprzed lat może dziś mieć inny numer paragrafu po nowelizacji — nie przepisuj numeracji z cudzego uzasadnienia bez sprawdzenia aktualnej. |
+| decyzje organów i interpretacje podatkowe (UOKiK, PUODO, KNF, Dyrektor KIS od 2020 r.) | `szukaj_decyzji` (`organ`), `pobierz_decyzje` | decyzja PUODO nieprawomocna (`nonfinal`) albo uchylona (`repealed`) nie jest ostateczna; interpretacja indywidualna chroni wyłącznie wnioskodawcę - przy innym stanie faktycznym to tylko wskazówka |
 | wyrok TSUE | `sprawdz_orzeczenie_tsue(celex)` albo `pobierz_orzeczenie` po sygnaturze `C-…/…`; sentencja: `koniec=true` | CELEX: format `6`+rok+`CJ`+numer, np. `62019CJ0224`. **Czytaj precyzyjnie, który to głos:** punkt, w którym Trybunał *odnotowuje stanowisko sądu odsyłającego albo strony* („sąd odsyłający i rząd X uważają, że…"), to nie jest teza samego Trybunału — dopiero rozstrzygnięcie w dalszej części punktów jest. Pomylenie tych dwóch to częsty błąd przy szybkim czytaniu. |
-| orzecznictwo krajowe (SN, sądy powszechne, TK, KIO) | `szukaj_orzeczen`, `pobierz_orzeczenie`, `sprawdz_sygnatury` | korpus nie obejmuje sądów administracyjnych i nie jest kompletny; przy braku trafienia: plik źródłowy od prawnika albo zewnętrzne narzędzie (sekcja 4) |
+| orzecznictwo krajowe (SN, sądy powszechne, TK, KIO, NSA, WSA od 2020 r.) | `szukaj_orzeczen` (zawężenie `sad_typ`: m.in. `NSA`, `WSA`), `pobierz_orzeczenie`, `sprawdz_sygnatury` | korpus nie jest kompletny; uchwała NSA wiąże składy sądów administracyjnych (art. 269 § 1 p.p.s.a.); przy braku trafienia: plik źródłowy od prawnika albo zewnętrzne narzędzie (sekcja 4) |
 
 Luka w korpusie (np. brak orzeczenia w bazie) jest realnym ograniczeniem, nie niedopatrzeniem. Praktyczne wyjście: poproś prawnika o wrzucenie tekstów z Lex do rozmowy — kilka plików .docx albo PDF rozwiązuje sprawę na całą sesję.
 
