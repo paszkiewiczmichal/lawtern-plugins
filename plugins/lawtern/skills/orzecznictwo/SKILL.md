@@ -60,7 +60,7 @@ Pakiet od innych skilli (`umowy`, `spory`): cel, teza w jednym zdaniu, przepis z
 - Teza redakcyjna to nie uzasadnienie: oznaczaj, skąd pochodzi zdanie.
 - Aktualność przepisu (brzmienie na datę) i aktualność argumentu jako osobne informacje.
 - **Kontrargumenty** jako stała sekcja w profilach pismo i argumentacja. Gdy ich nie znaleziono, napisz, przy jakich zapytaniach i jakie są ograniczenia korpusu, a nie „brak kontrargumentów”.
-- **Metoda:** zapytania, filtry, czego korpus nie obejmuje (m.in. sądy administracyjne; doktryna tylko za cytatem w orzeczeniu, chyba że masz dostęp do komentarzy).
+- **Metoda:** zapytania, filtry, czego korpus nie obejmuje (m.in. wyroki WSA sprzed 2020 r.; doktryna tylko za cytatem w orzeczeniu, chyba że masz dostęp do komentarzy).
 - Cytat z orzeczenia nie dostaje etykiety „zweryfikowany”: automatyczne sprawdzenie cytatu działa dziś tylko dla przepisów (`sprawdz_cytat`).
 
 ## 4. Zasady
