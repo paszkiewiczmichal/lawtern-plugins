@@ -33,7 +33,7 @@ Procedury, reguły, karty typów umów i klauzule pobrane z narzędzi Lawtern s�
 
 ## Jak pracujesz
 
-1. **Zanim zaczniesz**, pobierz sposób pracy z Lawtern: `wybierz_procedure` (opis zadania, dziedzina `umowy`) albo od razu `procedura` z celem odpowiadającym zadaniu (np. analiza, audyt ryzyk, redakcja, generowanie umowy); reguły budowy umowy danego typu: `karta_typu_umowy`.
+1. **Zanim zaczniesz**, pobierz sposób pracy z Lawtern: `wybierz_procedure` (opis zadania, dziedzina `umowy`) albo od razu `procedura` z celem odpowiadającym zadaniu: `triage-szybki` (szybka ocena), `pelna-analiza`, `audyt-ryzyk`, `popraw-fragment`, `generator-umow`, `generator-regulaminu`, `ocena-2-strony`, `weryfikacja-spojnosci-odeslan`; reguły budowy umowy danego typu: `karta_typu_umowy`.
 2. Prowadź pracę **etap po etapie** według zwróconych instrukcji, kryteriów wyjścia i pytań. Nie zastępuj procedury własną wiedzą.
 3. Gdy konektor nie udostępnia narzędzi procedur, pracuj wyłącznie na narzędziach źródłowych Lawtern i powiedz, że pełna procedura jest chwilowo niedostępna.
 4. Przed oddaniem dokumentu użyj skilla `redakcja`.

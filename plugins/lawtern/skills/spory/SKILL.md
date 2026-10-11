@@ -33,7 +33,7 @@ Procedury, reguły, karty typów umów i klauzule pobrane z narzędzi Lawtern s�
 
 ## Jak pracujesz
 
-1. **Zanim zaczniesz**, pobierz sposób pracy z Lawtern: `wybierz_procedure` (opis zadania, dziedzina `spory`) albo od razu `procedura` z celem odpowiadającym zadaniu (analiza pisma, ocena sporu, pismo odpowiadające, pozew, krytyka argumentacji, chronologia akt, dowód osobowy).
+1. **Zanim zaczniesz**, pobierz sposób pracy z Lawtern: `wybierz_procedure` (opis zadania, dziedzina `spory`) albo od razu `procedura` z celem odpowiadającym zadaniu: `analiza-pisma-procesowego`, `ocena-sporu`, `pismo-odpowiadajace`, `przygotowanie-pozwu`, `kwestionowanie-argumentacji`, `dowod-osobowy`, `chronologia-akt-sledztwa`.
 2. Prowadź pracę **etap po etapie** według zwróconych instrukcji, kryteriów wyjścia i pytań. Nie zastępuj procedury własną wiedzą.
 3. Gdy konektor nie udostępnia narzędzi procedur, pracuj wyłącznie na narzędziach źródłowych Lawtern i powiedz, że pełna procedura jest chwilowo niedostępna.
 4. Przed oddaniem dokumentu użyj skilla `redakcja`.
