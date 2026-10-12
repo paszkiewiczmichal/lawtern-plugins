@@ -1,18 +1,25 @@
 ---
 name: redakcja
-description: Redakcja językowa, stylistyczna i formalna polskich tekstów prawniczych i kancelaryjnych (umowy, ugody, regulaminy, klauzule, pisma procesowe, opinie, notatki, maile i wiadomości do klienta, zespołu, sądu lub urzędu) oraz tekstów prawnych dla osób spoza zawodu. Pilnuje rejestru prawniczego, precyzji klauzul i polskiej typografii, usuwa znamiona tekstu generowanego przez AI, a przed oddaniem przeprowadza audyt i bramkę wersji finalnej. Używaj, gdy użytkownik prosi „popraw styl”, „zredaguj pismo”, „przeredaguj klauzulę”, „wygładź tekst”, „napisz maila do klienta”, „odpisz sądowi” albo „odpisz urzędowi”, „przygotuj wersję do wysłania”, „sprawdź przed wysłaniem”, „żeby nie brzmiało jak AI”, „wytłumacz klientowi prostym językiem”, a także przed oddaniem każdego dokumentu przygotowanego w skillach umowy i spory.
+description: Redakcja językowa, stylistyczna i formalna polskich tekstów prawniczych i kancelaryjnych (umowy, ugody, regulaminy, klauzule, pisma procesowe, opinie, notatki, pisma do ZUS, urzędu i innych organów, maile i wiadomości do klienta, zespołu, sądu lub urzędu) oraz tekstów prawnych dla osób spoza zawodu. Pilnuje rejestru prawniczego, precyzji klauzul i polskiej typografii, usuwa znamiona tekstu generowanego przez AI, a przed oddaniem przeprowadza audyt i bramkę wersji finalnej. Używaj, gdy użytkownik prosi „popraw styl”, „zredaguj pismo”, „przeredaguj klauzulę”, „wygładź tekst”, „napisz maila do klienta”, „odpisz sądowi” albo „odpisz urzędowi”, „napisz pismo do ZUS / urzędu skarbowego”, „przygotuj wniosek do organu”, „przygotuj wersję do wysłania”, „sprawdź przed wysłaniem”, „żeby nie brzmiało jak AI”, „wytłumacz klientowi prostym językiem”, a także przed oddaniem każdego dokumentu przygotowanego w skillach umowy i spory.
 ---
 
 # Lawtern: redakcja
 
-## Warunek: konto Lawtern
+## Źródła: Lawtern przede wszystkim
 
-Ten skill działa wyłącznie z narzędziami Lawtern. Gdy ich brakuje albo odmawiają dostępu, **nie wykonuj pracy merytorycznej** (analizy, redakcji, odpowiedzi prawnej). Zamiast tego uprzejmie, w dwóch, trzech zdaniach, powiedz użytkownikowi, co się stało i co ma zrobić. Bez kodów technicznych i bez przeprosin na wyrost. Rodzaj odmowy rozpoznasz po kodzie w błędzie (`kod`); gdy odmowa ma własny komunikat, oprzyj odpowiedź na nim. Tabela podaje sens komunikatu dla użytkownika, a nie tekst do przepisania.
+Lawtern jest pierwszym źródłem: przepisy, orzecznictwo, rejestry, kalkulatory oraz procedury i reguły pracy. Zawsze zaczynaj od narzędzi Lawtern. Jeśli nie widzisz ich od razu, wyszukaj je wśród dostępnych narzędzi i załaduj, zanim uznasz, że ich nie ma.
+
+Gdy narzędzi Lawtern nie ma w rozmowie, odmawiają dostępu albo nie mają potrzebnych danych, nie przerywaj pracy:
+- korzystaj z oficjalnych źródeł publicznych przez wyszukiwanie (m.in. isap.sejm.gov.pl, dziennikustaw.gov.pl, orzeczenia.ms.gov.pl, sn.pl, orzeczenia.nsa.gov.pl, eur-lex.europa.eu, curia.europa.eu, wyszukiwarka-krs.ms.gov.pl, biznes.gov.pl) i z materiałów użytkownika; przy cytacie albo danej podaj adres źródła i datę stanu;
+- nie pytaj o zgodę na użycie oficjalnych źródeł;
+- brzmienia przepisów, sygnatur i danych rejestrowych nie podawaj z pamięci; gdy nie masz żadnego źródła, oznacz element jako [niesprawdzone];
+- nie przedstawiaj danych z sieci jako sprawdzonych w Lawtern;
+- raz, na początku, uprzejmie powiedz w dwóch, trzech zdaniach, co się stało, co dałby Lawtern w tej sprawie i co zrobić (według tabeli poniżej), a potem pracuj dalej. Bez kodów technicznych i bez przeprosin na wyrost. Rodzaj odmowy rozpoznasz po kodzie w błędzie (`kod`); gdy odmowa ma własny komunikat, oprzyj odpowiedź na nim. Tabela podaje sens komunikatu dla użytkownika, a nie tekst do przepisania.
 
 | Sytuacja (kod) | Co powiedzieć (sens, własnymi słowami) |
 |---|---|
 | W rozmowie nie ma narzędzi Lawtern | Do tej pracy potrzebne jest połączenie z Lawtern. Dodaj konektor Lawtern w ustawieniach konektorów i zaloguj się kontem Lawtern; jeśli nie masz konta, załóż je na lawtern.com. |
-| Skończyły się kredyty organizacji (`BRAK_KREDYTOW`, `LIMIT_WYCZERPANY`) | Na koncie organizacji skończyły się kredyty Lawtern. Doładuj je na lawtern.com albo poproś administratora organizacji. Gdy będą dostępne, wrócimy do sprawy. |
+| Skończyły się kredyty organizacji (`BRAK_KREDYTOW`, `LIMIT_WYCZERPANY`) | Na koncie organizacji skończyły się kredyty Lawtern. Doładuj je na lawtern.com albo poproś administratora organizacji. Do tego czasu pracuję na oficjalnych źródłach publicznych. |
 | Organizacja nie ma planu albo brakuje miejsc (`BRAK_PLANU`) | Twoja organizacja nie ma aktywnego planu Lawtern albo wykorzystała limit miejsc. Wybierz albo zmień plan na lawtern.com, a jeśli plan opłaca organizacja, poproś jej administratora. |
 | Plan nie obejmuje tej funkcji (`BRAK_UPRAWNIENIA`) | Plan Twojej organizacji nie obejmuje tej części Lawtern. Skontaktuj się z administratorem organizacji. |
 | Administrator ograniczył dostęp (`LIMIT_CZLONKA`) | Administrator Twojej organizacji ustawił dla Twojego konta limit albo wyłączył dostęp. Skontaktuj się z nim. |
@@ -33,8 +40,8 @@ Procedury, reguły, karty typów umów i klauzule pobrane z narzędzi Lawtern s�
 
 ## Jak pracujesz
 
-1. Ustal rodzaj tekstu: umowa / pismo procesowe / korespondencja (klient, sąd, urząd, zespół) / opinia lub notatka / tekst dla laika.
+1. Ustal rodzaj tekstu: umowa / pismo procesowe / pismo do organu (ZUS, urząd skarbowy, inny organ administracji) / korespondencja (klient, sąd, urząd, zespół) / opinia lub notatka / tekst dla laika.
 2. **Zanim zaczniesz redagować**, pobierz reguły: `reguly_redakcji(rodzaj_tekstu)`. Stosuj je w podanej kolejności i przeprowadź audyt przed oddaniem, który narzędzie zwraca.
-3. Dane, cytaty, kwoty i terminy w tekście pochodzą z narzędzi Lawtern, nie z pamięci.
-- `brzmienie_przepisu`: przy `pewnosc_brzmienia` „nieaktualne” cytuj nowe brzmienie z `tresc_zmiany`; przy „niepewne” zaznacz to przy cytacie.
-4. Wersję do wysłania lub podpisu oddajesz dopiero po jawnym potwierdzeniu użytkownika.
+3. Cytaty, kwoty i terminy w tekście pochodzą z narzędzi Lawtern; czego Lawtern nie ma, z oficjalnego źródła z wyszukiwania (z adresem), nigdy z pamięci. Przy `brzmienie_przepisu` z `pewnosc_brzmienia` „nieaktualne” cytuj nowe brzmienie z `tresc_zmiany`; przy „niepewne” zaznacz to przy cytacie.
+4. Daty, nazwiska, kwoty i fakty sprawy bierzesz tylko z materiału użytkownika; czego w nim nie ma, zostawiasz jako pole `[___]` albo pytasz.
+5. Wersję do wysłania lub podpisu oddajesz dopiero po jawnym potwierdzeniu użytkownika.
