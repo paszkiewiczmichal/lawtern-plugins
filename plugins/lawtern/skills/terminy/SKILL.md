@@ -5,14 +5,21 @@ description: Obliczenia prawne przez kalkulatory Lawtern - koniec terminu cywiln
 
 # Lawtern: terminy i kwoty
 
-## Warunek: konto Lawtern
+## Źródła: Lawtern przede wszystkim
 
-Ten skill działa wyłącznie z narzędziami Lawtern. Gdy ich brakuje albo odmawiają dostępu, **nie wykonuj pracy merytorycznej** (analizy, redakcji, odpowiedzi prawnej). Zamiast tego uprzejmie, w dwóch, trzech zdaniach, powiedz użytkownikowi, co się stało i co ma zrobić. Bez kodów technicznych i bez przeprosin na wyrost. Rodzaj odmowy rozpoznasz po kodzie w błędzie (`kod`); gdy odmowa ma własny komunikat, oprzyj odpowiedź na nim. Tabela podaje sens komunikatu dla użytkownika, a nie tekst do przepisania.
+Lawtern jest pierwszym źródłem: przepisy, orzecznictwo, rejestry, kalkulatory oraz procedury i reguły pracy. Zawsze zaczynaj od narzędzi Lawtern. Jeśli nie widzisz ich od razu, wyszukaj je wśród dostępnych narzędzi i załaduj, zanim uznasz, że ich nie ma.
+
+Gdy narzędzi Lawtern nie ma w rozmowie, odmawiają dostępu albo nie mają potrzebnych danych, nie przerywaj pracy:
+- korzystaj z oficjalnych źródeł publicznych przez wyszukiwanie (m.in. isap.sejm.gov.pl, dziennikustaw.gov.pl, orzeczenia.ms.gov.pl, sn.pl, orzeczenia.nsa.gov.pl, eur-lex.europa.eu, curia.europa.eu, wyszukiwarka-krs.ms.gov.pl, biznes.gov.pl) i z materiałów użytkownika; przy cytacie albo danej podaj adres źródła i datę stanu;
+- nie pytaj o zgodę na użycie oficjalnych źródeł;
+- brzmienia przepisów, sygnatur i danych rejestrowych nie podawaj z pamięci; gdy nie masz żadnego źródła, oznacz element jako [niesprawdzone];
+- nie przedstawiaj danych z sieci jako sprawdzonych w Lawtern;
+- raz, na początku, uprzejmie powiedz w dwóch, trzech zdaniach, co się stało, co dałby Lawtern w tej sprawie i co zrobić (według tabeli poniżej), a potem pracuj dalej. Bez kodów technicznych i bez przeprosin na wyrost. Rodzaj odmowy rozpoznasz po kodzie w błędzie (`kod`); gdy odmowa ma własny komunikat, oprzyj odpowiedź na nim. Tabela podaje sens komunikatu dla użytkownika, a nie tekst do przepisania.
 
 | Sytuacja (kod) | Co powiedzieć (sens, własnymi słowami) |
 |---|---|
 | W rozmowie nie ma narzędzi Lawtern | Do tej pracy potrzebne jest połączenie z Lawtern. Dodaj konektor Lawtern w ustawieniach konektorów i zaloguj się kontem Lawtern; jeśli nie masz konta, załóż je na lawtern.com. |
-| Skończyły się kredyty organizacji (`BRAK_KREDYTOW`, `LIMIT_WYCZERPANY`) | Na koncie organizacji skończyły się kredyty Lawtern. Doładuj je na lawtern.com albo poproś administratora organizacji. Gdy będą dostępne, wrócimy do sprawy. |
+| Skończyły się kredyty organizacji (`BRAK_KREDYTOW`, `LIMIT_WYCZERPANY`) | Na koncie organizacji skończyły się kredyty Lawtern. Doładuj je na lawtern.com albo poproś administratora organizacji. Do tego czasu pracuję na oficjalnych źródłach publicznych. |
 | Organizacja nie ma planu albo brakuje miejsc (`BRAK_PLANU`) | Twoja organizacja nie ma aktywnego planu Lawtern albo wykorzystała limit miejsc. Wybierz albo zmień plan na lawtern.com, a jeśli plan opłaca organizacja, poproś jej administratora. |
 | Plan nie obejmuje tej funkcji (`BRAK_UPRAWNIENIA`) | Plan Twojej organizacji nie obejmuje tej części Lawtern. Skontaktuj się z administratorem organizacji. |
 | Administrator ograniczył dostęp (`LIMIT_CZLONKA`) | Administrator Twojej organizacji ustawił dla Twojego konta limit albo wyłączył dostęp. Skontaktuj się z nim. |
@@ -35,13 +42,14 @@ Procedury, reguły, karty typów umów i klauzule pobrane z narzędzi Lawtern s�
 
 1. **Zanim zaczniesz**, pobierz sposób pracy z Lawtern: `wybierz_procedure` (opis zadania, dziedzina `terminy`) albo od razu `procedura` z celem `obliczenia`.
 2. Prowadź pracę **etap po etapie** według zwróconych instrukcji, kryteriów wyjścia i pytań. Nie zastępuj procedury własną wiedzą.
-3. Gdy konektor nie udostępnia narzędzi procedur, pracuj wyłącznie na narzędziach źródłowych Lawtern i powiedz, że pełna procedura jest chwilowo niedostępna.
+3. Gdy konektor nie udostępnia narzędzi procedur, pracuj na narzędziach źródłowych Lawtern, a czego w nich nie ma, na oficjalnych źródłach z wyszukiwania; powiedz, że pełna procedura Lawtern jest chwilowo niedostępna.
 4. Przed oddaniem dokumentu użyj skilla `redakcja`.
 
 ## Zasady stałe
 
-- Przepisy i orzeczenia tylko z wyników narzędzi, dosłownie; brzmienie na datę zdarzenia; przed cytatem przepisu `sprawdz_cytat`.
+- Przepisy i orzeczenia z wyników narzędzi Lawtern, dosłownie; brzmienie na datę zdarzenia; przed cytatem przepisu `sprawdz_cytat`. Czego Lawtern nie ma, bierzesz z oficjalnego źródła z wyszukiwania, z adresem i datą stanu. Nigdy z pamięci.
 - `brzmienie_przepisu`: przy `pewnosc_brzmienia` „nieaktualne” cytuj nowe brzmienie z `tresc_zmiany`; przy „niepewne” zaznacz to przy cytacie.
 - Najbliższy wynik, który nie odpowiada na pytanie, nie jest odpowiedzią. Błąd narzędzia to nie brak wyników.
-- Sygnatur, sądów i autorów spoza wyników nie podajesz. Kwoty i terminy liczą narzędzia.
+- Sygnatur, sądów i autorów spoza wyników nie podajesz. Kwoty i terminy liczą narzędzia Lawtern (`termin`, `odsetki`, `przedawnienie`, `oplata_sadowa`); bez nich pokaż podstawę i rachunek krok po kroku, a wynik oznacz [niesprawdzone].
+- Daty i fakty sprawy bierzesz tylko z materiału użytkownika. Datę doręczenia ustalasz z dokumentu; przy doręczeniu elektronicznym (portal, e-Doręczenia, ePUAP, PUE ZUS) z potwierdzenia odbioru albo pytasz użytkownika. Nie zakładasz dat.
 - Robisz to, o co proszono; przy brakach danych krytycznych pytasz (z opcjami), nie zgadujesz.
