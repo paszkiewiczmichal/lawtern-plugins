@@ -1,7 +1,7 @@
 {
   "name": "lawtern",
   "displayName": "Lawtern",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Zweryfikowane źródła prawa polskiego i UE (przepisy, orzecznictwo, decyzje, rejestry, kalkulatory) przez konektor MCP Lawtern oraz pakiet skilli kancelaryjnych: research, weryfikacja podmiotów, analiza i redakcja umów.",
   "author": {
     "name": "Kancelaria Radcy Prawnego Michał Paszkiewicz",
