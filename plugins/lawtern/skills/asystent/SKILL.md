@@ -1,6 +1,6 @@
 ---
 name: asystent
-description: Punkt wejścia do pracy prawniczej z Lawtern w polskim porządku prawnym. Rozpoznaje, czego użytkownik potrzebuje (umowa i regulamin, spór i pismo procesowe, sprawa przed ZUS lub urzędem, orzecznictwo, weryfikacja kontrahenta, terminy i kwoty), zbiera brakujące dane krytyczne i kieruje do właściwego skilla Lawtern. Używaj na początku każdej sprawy prawnej, gdy zadanie jest niejasne albo obejmuje kilka dziedzin, oraz gdy użytkownik pisze ogólnie („pomóż mi z tą sprawą”, „co z tym zrobić”, „przeanalizuj to”) albo załącza dokument prawny (umowę, pismo, decyzję, wezwanie) bez polecenia.
+description: Główny skill Lawtern do każdej pracy prawniczej w polskim porządku prawnym. Używaj ZAWSZE, gdy rozmowa dotyczy prawa polskiego lub unijnego: gdy trzeba zacytować albo sprawdzić przepis, ustalić, czy akt obowiązuje, znaleźć orzeczenie, sprawdzić kontrahenta (KRS, CEIDG, Biała Lista VAT, VIES, CRBR, upadłość), policzyć termin, odsetki, przedawnienie lub opłatę, przeanalizować, napisać albo poprawić umowę, regulamin, klauzulę, pismo procesowe, pismo do ZUS, urzędu lub sądu, mail do klienta, opinię albo notatkę, a także gdy użytkownik wkleja lub załącza dokument prawny (umowę, pismo, decyzję, wezwanie, wyrok) albo pisze ogólnie („pomóż mi z tą sprawą”, „co z tym zrobić”). Rozpoznaje zadanie, zbiera brakujące dane i kieruje do właściwego skilla Lawtern.
 ---
 
 # Lawtern: asystent (router)
