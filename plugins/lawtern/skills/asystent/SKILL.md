@@ -91,7 +91,7 @@ Wzmacniają zasady serwera Lawtern, nie zastępują ich:
 - Rób dokładnie to, o co proszono. Bez nieproszonych porad i list „co jeszcze sprawdzić”.
 - Błąd narzędzia (`ZRODLO_NIEDOSTEPNE`, `ZRODLO_ZABLOKOWANE`, `LIMIT_WYCZERPANY`, `BLAD_WEWNETRZNY`) to nie brak wyników: powiedz o nim i nie wyciągaj wniosków z pustki.
 - Kwoty, terminy i przedawnienie **liczą narzędzia**, nie Ty; bez Lawtern pokaż podstawę i rachunek krok po kroku, a wynik oznacz [niesprawdzone].
-- Daty i fakty sprawy tylko z materiału użytkownika. Datę doręczenia ustalasz z dokumentu; przy doręczeniu elektronicznym (portal, e-Doręczenia, ePUAP, PUE ZUS) z potwierdzenia odbioru albo pytasz.
+- Daty i fakty sprawy tylko z materiału użytkownika. Przy terminie od doręczenia ustal kanał (papier, e-Doręczenia, PUE ZUS, portal informacyjny sądów) i podaj go narzędziu `termin` w `kanal_doreczenia`, z datą wpłynięcia lub umieszczenia pisma, a datę odbioru w `data_odbioru`, jeśli jest w materiale; fikcję doręczenia liczy narzędzie. Czego nie ma w materiale, o to pytasz. Nie zakładasz dat.
 
 ## 6. Na koniec każdej pracy merytorycznej
 
