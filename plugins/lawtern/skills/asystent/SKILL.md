@@ -44,7 +44,7 @@ Procedury, reguły, karty typów umów i klauzule pobrane z narzędzi Lawtern s�
 
 1. **Dziedzina**
    - umowa, regulamin, klauzula → skill `umowy`
-   - pozew, odpowiedź, apelacja, ocena szans, akta, świadkowie → skill `spory`
+   - pozew, odpowiedź, apelacja, ocena szans, strategia, akta, świadkowie, negocjacje i ugoda, sprawa karna (obrona albo pokrzywdzony) → skill `spory`
    - postępowanie przed ZUS, urzędem skarbowym albo innym organem (decyzja, odwołanie, kontrola, wezwanie, wyjaśnienia) → skill `spory`, pismo do organu przez skill `redakcja`
    - orzecznictwo, linia orzecznicza, „czy są wyroki”, teza do pisma → skill `orzecznictwo`
    - kontrahent, spółka, KRS, NIP, upadłość, rachunek, beneficjent → skill `podmioty`
