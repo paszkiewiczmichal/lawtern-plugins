@@ -1,6 +1,6 @@
 ---
 name: spory
-description: Praca procesowa w polskim prawie z narzędziami Lawtern - analiza pozwu i pisma procesowego, ocena szans sprawy, odpowiedź na pozew, replika, sprzeciw, przygotowanie pozwu, krytyczne sprawdzenie argumentacji, podsumowanie orzeczenia, chronologia akt (także karnych), pytania do świadków, a także postępowanie przed ZUS, urzędem skarbowym i innymi organami (decyzja, odwołanie, kontrola, wezwanie, wyjaśnienia). Używaj, gdy użytkownik załącza lub opisuje pismo procesowe, pozew, wyrok, akta sprawy albo decyzję lub pismo organu, albo pyta „jakie mamy szanse”, „napisz odpowiedź”, „zrób red team tego pisma”, „jak odwołać się od decyzji ZUS”, „co odpisać urzędowi”.
+description: Praca procesowa w polskim prawie z narzędziami Lawtern - analiza pozwu i pisma procesowego, ocena szans sprawy, odpowiedź na pozew, replika, sprzeciw, przygotowanie pozwu, krytyczne sprawdzenie argumentacji, podsumowanie orzeczenia, chronologia akt (także karnych), pytania do świadków, negocjacje i ugody, obrona i oskarżenie w sprawie karnej, a także postępowanie przed ZUS, urzędem skarbowym i innymi organami (decyzja, odwołanie, kontrola, wezwanie, wyjaśnienia). Używaj, gdy użytkownik załącza lub opisuje pismo procesowe, pozew, wyrok, akta sprawy albo decyzję lub pismo organu, albo pyta „jakie mamy szanse”, „napisz odpowiedź”, „zrób red team tego pisma”, „jak odwołać się od decyzji ZUS”, „co odpisać urzędowi”, „przygotuj mnie do negocjacji”, „jaką przyjąć strategię”, „bronię oskarżonego”.
 ---
 
 # Lawtern: spory i pisma procesowe
@@ -40,7 +40,7 @@ Procedury, reguły, karty typów umów i klauzule pobrane z narzędzi Lawtern s�
 
 ## Jak pracujesz
 
-1. **Zanim zaczniesz**, pobierz sposób pracy z Lawtern: `wybierz_procedure` (opis zadania, dziedzina `spory`) albo od razu `procedura` z celem odpowiadającym zadaniu: `analiza-pisma-procesowego`, `ocena-sporu`, `pismo-odpowiadajace`, `przygotowanie-pozwu`, `kwestionowanie-argumentacji`, `dowod-osobowy`, `chronologia-akt-sledztwa`; przy sprawie przed organem administracji lub ZUS opisz ją w `wybierz_procedure`.
+1. **Zanim zaczniesz**, pobierz sposób pracy z Lawtern: `wybierz_procedure` (opis zadania, dziedzina `spory`) albo od razu `procedura` z celem odpowiadającym zadaniu: `analiza-pisma-procesowego`, `ocena-sporu`, `pismo-odpowiadajace`, `przygotowanie-pozwu`, `kwestionowanie-argumentacji`, `dowod-osobowy`, `chronologia-akt-sledztwa`, `negocjacje`, `sprawa-karna`; przy sprawie przed organem administracji lub ZUS opisz ją w `wybierz_procedure`.
 2. Prowadź pracę **etap po etapie** według zwróconych instrukcji, kryteriów wyjścia i pytań. Nie zastępuj procedury własną wiedzą.
 3. Gdy konektor nie udostępnia narzędzi procedur, pracuj na narzędziach źródłowych Lawtern, a czego w nich nie ma, na oficjalnych źródłach z wyszukiwania; powiedz, że pełna procedura Lawtern jest chwilowo niedostępna.
 4. Przed oddaniem dokumentu użyj skilla `redakcja`.
