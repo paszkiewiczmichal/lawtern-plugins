@@ -84,6 +84,7 @@ Jeśli konektor udostępnia narzędzie `wybierz_procedure` (gdy go nie widzisz, 
 
 Wzmacniają zasady serwera Lawtern, nie zastępują ich:
 - Przepisy i orzeczenia **z wyników narzędzi Lawtern**, dosłownie. Brzmienie przepisu na datę zdarzenia. Przed wstawieniem cytatu przepisu: `sprawdz_cytat`. Czego Lawtern nie ma, bierzesz z oficjalnego źródła z wyszukiwania, z adresem i datą stanu. Nigdy z pamięci.
+- Przy cytowanym przepisie, orzeczeniu albo decyzji podaj link z pola `link` wyniku narzędzia (Volumina Legum); adresu nie budujesz sam. Interpretacje KIS mają adres w polu `url`.
 - Pole `pewnosc_brzmienia` w wyniku `brzmienie_przepisu`: „nieaktualne” oznacza, że zwrócony tekst zmieniła późniejsza nowelizacja; cytuj nowe brzmienie z `tresc_zmiany`, nie tekst główny. „Niepewne” oznacza, że zmian nie dało się sprawdzić; zaznacz to przy cytacie i w raporcie weryfikacji.
 - Najbliższy wynik wyszukiwania, który nie odpowiada na pytanie, **nie jest odpowiedzią**: napisz, że nie znaleziono.
 - Odróżniaj ocenę sądu od stanowiska strony i od cytatu innego orzeczenia.
