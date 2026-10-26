@@ -4,7 +4,7 @@
   "description": "Pluginy Lawtern dla Claude: zweryfikowane źródła prawa polskiego i UE oraz workflow kancelaryjne.",
   "owner": {
     "name": "Kancelaria Radcy Prawnego Michał Paszkiewicz",
-    "email": "kontakt@kancelariapaszkiewicz.pl"
+    "email": "contact@lawtern.com"
   },
   "plugins": [
     {
